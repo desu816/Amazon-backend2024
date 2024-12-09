@@ -5,6 +5,9 @@ import classes from './Product.module.css';
 import { useContext } from 'react';
 import { DataContext } from '../DataProvider/DataProvider';
 import { Type } from '../../Utility/actiontype';
+import { auth, db } from "../../Utility/firebase";
+
+
 
 function ProductCard({ product, flex, renderDesc }) {
   const { image, title, id, rating, price, description } = product;
