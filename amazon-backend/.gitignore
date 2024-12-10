@@ -4,10 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
+/amazon-api
 
 # testing
 /coverage
-
+/amazon-backend/functions/node_modules
 # production
 /build
 
